@@ -1,0 +1,27 @@
+category,type,label,count,percentage,notes
+size_distribution,object_size,Extreme_Tiny,6300,0.42,Area<=256px^2
+size_distribution,object_size,Small,5700,0.38,256<Area<=1024px^2
+size_distribution,object_size,Medium,2250,0.15,1024<Area<=9216px^2
+size_distribution,object_size,Large,750,0.05,Area>9216px^2
+,,,,,
+gss_distribution,glare_severity,Low_GSS,1375,0.55,0.0<=GSS<0.3
+gss_distribution,glare_severity,Medium_GSS,750,0.3,0.3<=GSS<0.6
+gss_distribution,glare_severity,High_GSS,375,0.15,0.6<=GSS<=1.0
+,,,,,
+class_distribution,object_class,Boat,11500,0.7667,dominant maritime vessel
+class_distribution,object_class,Swimmer,1800,0.12,human target in water
+class_distribution,object_class,LifeJacket,1000,0.0667,safety equipment
+class_distribution,object_class,Buoy,500,0.0333,navigation marker
+class_distribution,object_class,JetSki,200,0.0133,small fast vessel
+,,,,,
+aspect_ratio_distribution,bbox_ratio,0-0.5,2100,0.14,tall narrow objects
+aspect_ratio_distribution,bbox_ratio,0.5-1.0,3900,0.26,slightly vertical objects
+aspect_ratio_distribution,bbox_ratio,1.0-2.0,5400,0.36,balanced objects
+aspect_ratio_distribution,bbox_ratio,2.0-3.0,2700,0.18,horizontal objects
+aspect_ratio_distribution,bbox_ratio,>3.0,900,0.06,extreme elongated objects
+,,,,,
+objects_per_image,image_density,1_object,400,0.16,single object scene
+objects_per_image,image_density,2_objects,625,0.25,small scene
+objects_per_image,image_density,3-5_objects,875,0.35,typical surveillance scene
+objects_per_image,image_density,6-10_objects,450,0.18,dense maritime traffic
+objects_per_image,image_density,>10_objects,150,0.06,extreme crowding
