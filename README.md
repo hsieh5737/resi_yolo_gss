@@ -61,34 +61,7 @@ The implementation targets embedded Linux environments and assumes:
 
 ## Directory Structure
 
-resi_yolo_gss/
-├── CMakeLists.txt
-├── README.md
-│
-├── src/
-│ ├── main.c # Pipeline entry point
-│ ├── gss_runner.c/h # GSS execution interface
-│ ├── yolo_label.c/h # YOLO parsing & tiny vessel logic
-│ └── utils.c/h
-│
-├── scripts/
-│ ├── compute_gss.py # Appendix B3: GSS computation
-│ ├── export_model.sh # Appendix A3-1: model export
-│ ├── inference.py # Appendix A3-2: inference (placeholder)
-│ └── run_tracking.py # Appendix A3-3: tracking replay (placeholder)
-│
-├── data/
-│ ├── images/
-│ ├── labels/
-│ └── metadata.csv
-│
-├── weights/
-│ ├── best.pt
-│ └── resi_yolo_640x640_fp16.engine
-│
-└── output/
-├── dets.txt
-└── logs/
+![image](https://github.com/hsieh5737/resi_yolo_gss/blob/main/image.png)
 
 
 ---
